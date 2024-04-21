@@ -5,7 +5,7 @@ description: Descriptions on how to install surveilr.
 
 ## Download
 1. Get the latest `surveilr` using either of the following one-liners:
-   - An installation script: 
+   - An installation script for Linux build: 
        ```bash
        $ curl -sL https://raw.githubusercontent.com/opsfolio/releases.opsfolio.com/main/surveilr/install.sh | sh
 
@@ -14,12 +14,12 @@ description: Descriptions on how to install surveilr.
        ```
 
    - Eget
-     - Download `eget` [here](https://github.com/zyedidia/eget).
-     - ```bash
-           $ eget opsfolio/resource-surveillance --asset tar.gz
-           ```
+     Download `eget` [here](https://github.com/zyedidia/eget).
+     ```bash
+     $ eget opsfolio/resource-surveillance --asset tar.gz
+     ```
 
-   - Get the releases from our github [releases page](https://github.com/opsfolio/releases.opsfolio.com/releases).
+   - Get the releases (including macOS & Windows) from our github [releases page](https://github.com/opsfolio/releases.opsfolio.com/releases).
 
 ## Verify installation
 ```bash
